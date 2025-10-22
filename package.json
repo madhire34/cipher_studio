@@ -1,0 +1,28 @@
+{
+  "name": "cipherstudio",
+  "version": "1.0.0",
+  "description": "Online React IDE - Write, run, and save React code in the browser",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": [
+    "react",
+    "ide",
+    "online-editor",
+    "code-playground",
+    "sandpack",
+    "nextjs",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

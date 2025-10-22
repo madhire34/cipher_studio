@@ -1,0 +1,38 @@
+# ===================================================================
+# YOUR MONGODB CONFIGURATION - Copy this to .env file
+# ===================================================================
+# 
+# INSTRUCTIONS:
+# 1. Create a new file named ".env" in the backend directory
+# 2. Copy the content below into that .env file
+# 3. Save the file
+# 4. Delete this YOUR_ENV_CONFIG.txt file after copying
+#
+# ===================================================================
+
+# Server Configuration
+PORT=5000
+NODE_ENV=development
+
+# Database - YOUR MONGODB CLUSTER
+MONGODB_URI=mongodb+srv://reddymahan757_db_user:x0KLLwYrULEIJWha@resumecluster.n5313sh.mongodb.net/cipherstudio?retryWrites=true&w=majority
+
+# JWT Secret - GENERATED FOR YOU
+JWT_SECRET=8f7a9c2e5d1b6f3a4e8c9d2f5a7b3e1c6d9f2a5b8e1c4d7f0a3b6e9c2d5f8a1b
+
+# AWS S3 Configuration (Optional - Leave as is if not using S3)
+AWS_ACCESS_KEY_ID=your_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+AWS_REGION=us-east-1
+AWS_S3_BUCKET=cipherstudio-files
+
+# CORS
+CORS_ORIGIN=http://localhost:3000
+
+# ===================================================================
+# NOTES:
+# - Your MongoDB connection is configured with database name "cipherstudio"
+# - JWT secret has been auto-generated for security
+# - AWS S3 is optional - files will be stored in MongoDB by default
+# - Make sure to keep the .env file secure and never commit it to Git
+# ===================================================================

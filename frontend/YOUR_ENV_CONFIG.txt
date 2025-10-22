@@ -1,0 +1,20 @@
+# ===================================================================
+# FRONTEND CONFIGURATION - Copy this to .env.local file
+# ===================================================================
+# 
+# INSTRUCTIONS:
+# 1. Create a new file named ".env.local" in the frontend directory
+# 2. Copy the content below into that .env.local file
+# 3. Save the file
+# 4. Delete this YOUR_ENV_CONFIG.txt file after copying
+#
+# ===================================================================
+
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+
+# ===================================================================
+# NOTES:
+# - This points to your local backend server
+# - Change this to your production API URL when deploying
+# - Make sure backend is running on port 5000
+# ===================================================================
